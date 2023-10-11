@@ -51,7 +51,9 @@ body {
 #iconConv,
 #iconAgenda,
 #iconVerdict,
-#iconSearch {
+#iconSearch,
+#iconMessage,
+#iconProfile {
   width: 100px;
   height: 100px;
   margin-left: 2%;
@@ -64,13 +66,16 @@ body {
 #iconConv,
 #iconAgenda,
 #iconVerdict,
-#iconSearch :hover {
+#iconSearch,
+#iconMessage,
+#iconProfile :hover {
   cursor: pointer;
 }
 #iconConv:active,
 #iconAgenda:active,
 #iconVerdict:active,
-#iconSearch:active {
+#iconSearch:active,
+#iconProfile:active {
   transform: scale(0.9);
 }
 
@@ -274,4 +279,24 @@ td:first-child {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@keyframes pop {
+  0% {
+    transform: translateX(-50%) scale(0.9);
+  }
+  50% {
+    transform: translateX(-50%) scale(1);
+  }
+  100% {
+    transform: translateX(-50%) scale(0.9);
+  }
+}
+#iconMessage {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform-origin: center;
+  transform: translateX(-50%) scale(1);
+  transition: transform 0.1s ease-in-out;
+  animation: pop 1s ease-in-out infinite;
 }
