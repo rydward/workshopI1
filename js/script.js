@@ -201,6 +201,7 @@ function setFinish(title, text) {
   document.getElementById("finish-title").innerHTML =
     "Vous avez choisit : " + title;
 
+  document.getElementById("finish-titleContent").innerHTML = text.titre;
   document.getElementById("finish-content").innerHTML = text.text;
 }
 
