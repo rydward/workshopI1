@@ -141,15 +141,15 @@
     ],
     "temoignages": [
       {
-        "name": "M. L",
+        "name": "L",
         "text": "Je ne comprends pas pourquoi je dois témoigner. Tout le monde dans l’entreprise me connais et sait que jamais je ne ferais ça à une collègue. Je n’ai rien fais de mal à part rigoler avec une collègue. De plus je suis marié et j’ai 2 magnifiques enfants. Ce n’est pas une jeune femme de 25 ans qui va m’intéresser."
       },
       {
-        "name": "M. C",
+        "name": "C",
         "text": "Je dois vous dire que je préfère ne pas me mêler de ce genre de choses. Je suis ici pour faire mon travail et garder un certain recul par rapport aux affaires personnelles de mes collègues. Mais je n'ai vraiment rien vu de significatif."
       },
       {
-        "name": "Mme. B",
+        "name": "B",
         "text": "N c’est confié à moi au départ par message, je lui ai donc proposé par la suite qu’on en discute le lendemain midi autour d’un repas. Je l’ai aidé à prendre confiance en elle pour qu’elle ose aller vous voir pour dénoncer ce porc de M.L, il est peut-être performant au travail mais c’est un prédateur !"
       },
       {
@@ -306,6 +306,25 @@
             "participant": ["N", "L", "X"]
           }
         ]
+      }
+    },
+    "verdict": {
+      "vilain": "L",
+      "inocent": {
+        "good": false,
+        "text": "Vous avez pas raison"
+      },
+      "drague": {
+        "good": false,
+        "text": "Mais non pas dutout tes con"
+      },
+      "harcelement": {
+        "good": false,
+        "text": "Vous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loinVous avez pas vraiment raison mais pas loin"
+      },
+      "agression": {
+        "good": true,
+        "text": "Vous avez raison"
       }
     }
   }

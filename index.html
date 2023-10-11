@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/desktop.css" rel="stylesheet">
-    <title>Bureau Windows</title>
-</head>
-<body>
-    <div id="iconAgenda" ><img class="icon"src="img/agenda.png"></div>
-    <div id="iconConv" ><img class="icon"src="img/conversation.png"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/desktop.css" rel="stylesheet">
+        <title>Bureau Windows</title>
+    </head>
+    <body>
+        <div id="iconAgenda"><img class="icon" src="img/agenda.png"></div>
+        <div id="iconConv"><img class="icon" src="img/conversation.png"></div>
+        <div id="iconVerdict"><img class="icon" src="img/verdict.png"></div>
 
-    <div id="popupAgenda" class="popup">
-        <h2>Emploi du temps</h2>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Lundi</th>
-                        <th>Mardi</th>
-                        <th>Mercredi</th>
-                        <th>Jeudi</th>
-                        <th>Vendredi</th>
-                    </tr>
-                </thead>
-                <tbody id="schedule-body">
-                    <!-- horraire mis en JS -->
-                </tbody>
-            </table>
+        <div id="popupAgenda" class="popup">
+            <h2>Emploi du temps</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="schedule-body">
+                        <!-- horraire mis en JS -->
+                    </tbody>
+                </table>
+            </div>
+            <button id="closeAgenda" class="buttonClosePopup">Fermer</button>
         </div>
-        <button id="closeAgenda" class="buttonClosePopup">Fermer</button>
-    </div>
 
-    <div id="popupConv">
-        <ul id="conversation-list">
-            
-        <button id="closeConv" class="buttonClosePopupConv">Fermer</button> 
-        </ul>
-        <div id="chat-container">
-            <!-- Messages de la conversation sélectionnée -->
+        <div id="popupConv">
+            <ul id="conversation-list">
+
+                <button id="closeConv" class="buttonClosePopupConv">Fermer</button>
+            </ul>
+            <div id="chat-container">
+                <!-- Messages de la conversation sélectionnée -->
+            </div>
         </div>
-    </div>
 
-</body>
-<script src="js/script.js"></script>
+        <div id="popupVerdict">
+            <h1>Juger le cas de : <span id="vilain-name"></span></h1>
+            <div id="verdict-buttons">
+                <div id="verdict-button-innocent" class="verdict-button">
+                    <img src="img/innoncent.png" alt="innocent">
+                    <p class="verdict-button-title">Innocent</p>
+                </div>
+                <div id="verdict-button-drague" class="verdict-button">
+                    <img src="img/drague.png" alt="drague">
+                    <p class="verdict-button-title">Drague</p>
+                </div>
+                <div id="verdict-button-harcelement" class="verdict-button">
+                    <img src="img/harcelement.png" alt="harcelement">
+                    <p class="verdict-button-title">Harcelement</p>
+                </div>
+                <div id="verdict-button-agression" class="verdict-button">
+                    <img src="img/agression.png" alt="agression">
+                    <p class="verdict-button-title">Agression</p>
+                </div>
+            </div>
+            <button id="closeVerdict" class="buttonClosePopupVerdict">Fermer</button>
+        </div>
+
+        <div id="popupFinish">
+            <h1 id="finish-title"></h1>
+            <p id="finish-content"></p>
+        </div>
+
+    </body>
+    <script src="js/script.js"></script>
 </html>
