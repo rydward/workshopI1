@@ -12,8 +12,15 @@ const iconVerdict = document.getElementById("iconVerdict");
 const popupVerdict = document.getElementById("popupVerdict");
 const closeBtnVerdict = document.getElementById("closeVerdict");
 
+const iconSearch = document.getElementById("iconSearch");
+const popupSearch = document.getElementById("popupSearch");
+const closeBtnSearch = document.getElementById("closeSearch");
+
 const conversationList = document.getElementById("conversation-list");
 const chatContainer = document.getElementById("chat-container");
+
+const loupeIcon = document.getElementById("searchImage");
+const searchInput = document.getElementById("search-input");
 
 const verdictButtonInnocent = document.getElementById(
   "verdict-button-innocent"
@@ -143,6 +150,10 @@ iconConv.addEventListener("click", () => {
   popupConv.style.display = "flex";
 });
 
+iconSearch.addEventListener("click", () => {
+  popupSearch.style.display = "flex";
+});
+
 // Événement pour fermer l'agenda
 closeBtnAgenda.addEventListener("click", () => {
   popupAgenda.style.display = "none";
@@ -155,6 +166,10 @@ closeBtnConv.addEventListener("click", () => {
 
 closeBtnVerdict.addEventListener("click", () => {
   popupVerdict.style.display = "none";
+});
+
+closeBtnSearch.addEventListener("click", () => {
+  popupSearch.style.display = "none";
 });
 
 // Charger le fichier JSON (utilisez le chemin approprié vers votre fichier JSON)
@@ -188,3 +203,18 @@ function setFinish(title, text) {
 
   document.getElementById("finish-content").innerHTML = text.text;
 }
+
+loupeIcon.addEventListener("click", () => {
+  const searchValue = searchInput.value;
+  const temoignages = data["case1"].temoignages;
+
+  const filteredTemoignages = temoignages.findIndex(
+    (temoignage) => temoignage.name.toUpperCase() === searchValue.toUpperCase()
+  );
+
+  document.getElementById("temoin-container-title").innerHTML =
+    "temoignage de : " + temoignages[filteredTemoignages].name;
+
+  document.getElementById("temoin-container-text").innerHTML =
+    temoignages[filteredTemoignages].text;
+});

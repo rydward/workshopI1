@@ -9,6 +9,7 @@
     <body>
         <div id="iconAgenda"><img class="icon" src="img/agenda.png"></div>
         <div id="iconConv"><img class="icon" src="img/conversation.png"></div>
+        <div id="iconSearch"><img class="icon" src="img/search.png"></div>
         <div id="iconVerdict"><img class="icon" src="img/verdict.png"></div>
 
         <div id="popupAgenda" class="popup">
@@ -64,6 +65,22 @@
                 </div>
             </div>
             <button id="closeVerdict" class="buttonClosePopupVerdict">Fermer</button>
+        </div>
+
+        <div id="popupSearch">
+            <div id="search-input-container">
+                <image id="searchImage" src="img/loupe.png">
+                <input id="search-input" type="text"
+                    placeholder="Recherchez le nom d'une personne pour obtenir son témoignage">
+            </div>
+
+            <div id="temoin-container">
+                <h1 id="temoin-container-title"></h1>
+                <div id="temoin-container-text"></div>
+            </div>
+
+            <button id="closeSearch" class="buttonClosePopupSearch">Fermer</button>
+
         </div>
 
         <div id="popupFinish">
