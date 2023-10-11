@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/desktop.css" rel="stylesheet">
+    <title>Bureau Windows</title>
+</head>
+<body>
+    <div id="iconAgenda" ><img class="icon"src="img/agenda.png"></div>
+    <div id="iconConv" ><img class="icon"src="img/conversation.png"></div>
+
+    <div id="popupAgenda" class="popup">
+        <h2>Emploi du temps</h2>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lundi</th>
+                        <th>Mardi</th>
+                        <th>Mercredi</th>
+                        <th>Jeudi</th>
+                        <th>Vendredi</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-body">
+                    <!-- horraire mis en JS -->
+                </tbody>
+            </table>
+        </div>
+        <button id="closeAgenda" class="buttonClosePopup">Fermer</button>
+    </div>
+
+    <div id="popupConv">
+        <ul id="conversation-list">
+            
+        <button id="closeConv" class="buttonClosePopupConv">Fermer</button> 
+        </ul>
+        <div id="chat-container">
+            <!-- Messages de la conversation sélectionnée -->
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>

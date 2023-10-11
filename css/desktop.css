@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/background.webp'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* Style pour le bouton de fermeture */
+.buttonClosePopup {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonClosePopupConv{
+    margin-top: 40vh;
+    margin-left: 1vh;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon{
+    width: 100%;
+    height: 100%;
+    margin: 15%;
+}
+
+#iconConv, #iconAgenda{
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    width: 20%;
+}
+
+/* Style pour les jours de la semaine */
+th:first-child {
+    width: auto;
+    text-align: left;
+}
+
+/* Style pour les horaires */
+td:first-child {
+    text-align: right;
+}
+
+/* Style pour la liste de conversations */
+#conversation-list {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+}
+
+.conversation-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.conversation-item:hover {
+    background-color: #f2f2f2;
+}
+
+/* Style pour la zone de conversation */
+#chat-container {
+    flex: 2;
+    height: 90%;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Style pour les messages */
+.message {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.message.from-user {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: right;
+}
+
+/* Style pour la zone de saisie de texte */
+#input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input-message {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#popupConv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    height: 60%;
+    max-height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border-radius: 20px;
+}

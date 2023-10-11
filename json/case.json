@@ -1,0 +1,312 @@
+{
+  "case1": {
+    "initialPlaintePath": "./assets/plainte1.pdf",
+    "conversations": [
+      [
+        {
+          "date": "06/03/2023 15h30",
+          "sender": "L",
+          "message": "Salut ma petite N 🙂 🍆"
+        },
+        {
+          "date": "06/03/2023 15h32",
+          "sender": "N",
+          "message": "Salut"
+        },
+        {
+          "date": "06/03/2023 15h33",
+          "sender": "L",
+          "message": "Tu pourras passer me voir à mon bureau à 18H pour parler d’un sujet important   stp ? 🙂"
+        },
+        {
+          "date": "06/03/2023 15h45",
+          "sender": "N",
+          "message": "Heu, j’ai déjà prévue quelque chose ce soir, est- ce vraiment important ? ça ne peut pas attendre demain matin ?"
+        },
+        {
+          "date": "06/03/2023 15h46",
+          "sender": "L",
+          "message": "Non ça peut pas attendre, t’inquiètes pas ton copain peut attendre non ? 😓"
+        },
+        {
+          "date": "06/03/2023 16h11",
+          "sender": "L",
+          "message": "Tu ne me répond pas ?"
+        },
+        {
+          "date": "06/03/2023 16h20",
+          "sender": "N",
+          "message": "Je peux peut-être me libérer… C’est à quel sujet ?"
+        },
+        {
+          "date": "06/03/2023 16h23",
+          "sender": "L",
+          "message": "Tu sais très bien … tout à l’heure dans la salle de pause, j’ai vu tes regards"
+        },
+        {
+          "date": "06/03/2023 16h25",
+          "sender": "N",
+          "message": " Je ne t'ai fait aucun regard ! Désolé je suis occupé ce soir."
+        },
+        {
+          "date": "06/03/2023 16h25",
+          "sender": "N",
+          "message": "A demain"
+        },
+        {
+          "date": "06/03/2023 16h26",
+          "sender": "L",
+          "message": "A demain … 😉"
+        }
+      ],
+      [
+        {
+          "date": "09/03/2023 11h12",
+          "sender": "N",
+          "message": "Bonjour, tu vas bien ? J'aimerais te faire part d’un cas très embarrassant. En effet M. L n’arrête pas de me faire des remarques sexistes voire sexuelles qui me rabaissent au quotidien mais la il est allé trop loin et je me sent très mal, j’ai même peur d’en parler."
+        },
+        {
+          "date": "09/03/2023 11h14",
+          "sender": "B",
+          "message": "Salut ça va bien. Tu peux te confier a moi, explique moi en détail"
+        },
+        {
+          "date": "09/03/2023 11h19",
+          "sender": "N",
+          "message": "Et bien c’est compliqué d’en parler… J’ai l’impression que personne ne veut écouter mes reproches dans l’entreprise mais je me sens vraiment mal depuis que ça a commencé. Mais je me sens de plus en plus mal à l'aise."
+        },
+        {
+          "date": "09/03/2023 11h22",
+          "sender": "B",
+          "message": "Explique moi le sujet, tu ne dois pas garder ça pour toi"
+        },
+        {
+          "date": "09/03/2023 11h24",
+          "sender": "N",
+          "message": "Hier M. L m'a attrapé les cheveux alors que je travaillais et à mimé un acte sexuel. Je me sens très mal, d’autant plus que chaque jour il n’hésite pas à m’inviter dans son bureau ou à me faire des avances…"
+        },
+        {
+          "date": "09/03/2023 11h35",
+          "sender": "B",
+          "message": "Ecoute récupère un maximum d’information et je t’accompagnerais voir des supérieurs pour leur en parler si tu le souhaite ?"
+        },
+        {
+          "date": "09/03/2023 11h38",
+          "sender": "N",
+          "message": "D'accord, j’ai déjà beaucoup de messages qui pourraient l'inculper et il y avait des témoins. Par contre je ne pense pas qu’ils seraient tous prêt à témoigner"
+        },
+        {
+          "date": "09/03/2023 11h41",
+          "sender": "B",
+          "message": "On se voit demain midi pour en discuter de vive voix !"
+        }
+      ],
+      [
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "L",
+          "message": "Salut, M. C., tu as vu Mme N. aujourd'hui ? Elle est vraiment mignonne, n'est-ce pas ?"
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "C",
+          "message": "Oh, oui, M. L., elle est effectivement charmante. Mais tu sais, elle nous a demandé d'arrêter avec les commentaires à connotation sexuelle l'autre jour."
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "L",
+          "message": "Vraiment ?"
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "C",
+          "message": "Oui, elle a dit qu'elle aurait pu être notre fille. Mais bon, moi, je ne pourrais jamais la considérer comme ma fille, tu vois ?"
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "L",
+          "message": "Haha, je comprends ce que tu veux dire, M. C. Elle est peut-être un peu trop sexy pour être notre fille, n'est-ce pas ?"
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "C",
+          "message": "Exactement, M. L. Et tu sais quoi ? Je pense qu'elle apprécie notre attention. C'est une grande fille, elle peut se défendre si elle veut."
+        },
+        {
+          "date": "07/03/2023 13h25",
+          "sender": "L",
+          "message": "Tu as raison, M. C. On ne devrait pas trop se prendre au sérieux. Après tout, on rigole un peu au travail, c'est tout."
+        }
+      ]
+    ],
+    "temoignages": [
+      {
+        "name": "M. L",
+        "text": "Je ne comprends pas pourquoi je dois témoigner. Tout le monde dans l’entreprise me connais et sait que jamais je ne ferais ça à une collègue. Je n’ai rien fais de mal à part rigoler avec une collègue. De plus je suis marié et j’ai 2 magnifiques enfants. Ce n’est pas une jeune femme de 25 ans qui va m’intéresser."
+      },
+      {
+        "name": "M. C",
+        "text": "Je dois vous dire que je préfère ne pas me mêler de ce genre de choses. Je suis ici pour faire mon travail et garder un certain recul par rapport aux affaires personnelles de mes collègues. Mais je n'ai vraiment rien vu de significatif."
+      },
+      {
+        "name": "Mme. B",
+        "text": "N c’est confié à moi au départ par message, je lui ai donc proposé par la suite qu’on en discute le lendemain midi autour d’un repas. Je l’ai aidé à prendre confiance en elle pour qu’elle ose aller vous voir pour dénoncer ce porc de M.L, il est peut-être performant au travail mais c’est un prédateur !"
+      },
+      {
+        "name": "A",
+        "text": "Je m'appelle A, je travaille à la RATP depuis quelques années maintenant. Honnêtement, je n'ai jamais remarqué quoi que ce soit de particulier en ce qui concerne le harcèlement au travail. Je suis généralement concentré sur mes tâches, et je n'ai jamais été témoin d'incidents de harcèlement envers Mme N. ou d'autres collègues."
+      },
+      {
+        "name": "E",
+        "text": "Je suis E, je travaille dans une autre équipe à la RATP. J'ai entendu parler des problèmes que Mme N. aurait rencontrés, mais je n'ai jamais été témoin de quoi que ce soit. Les gens ont tendance à exagérer les choses, non ? De toute façon, je préfère me tenir à l'écart de ces histoires."
+      },
+      {
+        "name": "F",
+        "text": "Salut, je suis F. Je ne sais pas vraiment ce qui se passe avec Mme N. J'ai entendu quelques rumeurs, mais je n'ai jamais rien vu de mes propres yeux. Mon travail me tient occupé, et je n'ai jamais été témoin de comportements inappropriés de la part de mes collègues."
+      },
+      {
+        "name": "I",
+        "text": "Je m'appelle I, je travaille à la RATP depuis longtemps. Si quelque chose de grave se passait, je pense que je l'aurais remarqué, mais honnêtement, je n'ai jamais vu de harcèlement au travail ici. Les gens doivent se parler et résoudre leurs problèmes."
+      },
+      {
+        "name": "K",
+        "text": "Je suis K, je travaille sur une autre ligne de métro à la RATP. Je ne sais pas grand-chose de ce qui se passe avec Mme N. Je préfère me concentrer sur mon propre travail, et je n'ai jamais été témoin de comportements inappropriés envers elle ou quiconque."
+      },
+      {
+        "name": "O",
+        "text": "Je m'appelle O, je travaille à la RATP depuis quelques années maintenant. Honnêtement, je n'ai jamais remarqué quoi que ce soit de particulier en ce qui concerne le harcèlement au travail. Je suis généralement concentré sur mes tâches, et je n'ai jamais été témoin d'incidents de harcèlement envers Mme N. ou d'autres collègues."
+      },
+      {
+        "name": "M",
+        "text": "Je suis M, je travaille dans une autre équipe à la RATP. J'ai entendu parler des problèmes que Mme N. aurait rencontrés, mais je n'ai jamais été témoin de quoi que ce soit. Les gens ont tendance à exagérer les choses, non ? De toute façon, je préfère me tenir à l'écart de ces histoires."
+      },
+      {
+        "name": "R",
+        "text": "Salut, je suis R. Je ne sais pas vraiment ce qui se passe avec Mme N. J'ai entendu quelques rumeurs, mais je n'ai jamais rien vu de mes propres yeux. Mon travail me tient occupé, et je n'ai jamais été témoin de comportements inappropriés de la part de mes collègues."
+      },
+      {
+        "name": "T",
+        "text": "Je m'appelle T, je travaille à la RATP depuis longtemps. Si quelque chose de grave se passait, je pense que je l'aurais remarqué, mais honnêtement, je n'ai jamais vu de harcèlement au travail ici. Les gens doivent se parler et résoudre leurs problèmes."
+      },
+      {
+        "name": "U",
+        "text": "Je suis U, je travaille sur une autre ligne de métro à la RATP. Je ne sais pas grand-chose de ce qui se passe avec Mme N. Je préfère me concentrer sur mon propre travail, et je n'ai jamais été témoin de comportements inappropriés envers elle ou quiconque."
+      },
+      {
+        "name": "W",
+        "text": "Salut, je suis W. Je ne sais pas vraiment ce qui se passe avec Mme N. J'ai entendu quelques rumeurs, mais je n'ai jamais rien vu de mes propres yeux. Mon travail me tient occupé, et je n'ai jamais été témoin de comportements inappropriés de la part de mes collègues."
+      },
+      {
+        "name": "X",
+        "text": "Je suis X, collègue de Mme N. depuis un moment. J'ai clairement vu des comportements inappropriés de la part de M. L. envers elle, notamment des commentaires déplacés et des gestes inappropriés. C'était très gênant."
+      },
+      {
+        "name": "Y",
+        "text": "Je m'appelle Y, et je travaille sur la même ligne de métro que Mme N. J'ai assisté à plusieurs reprises à des situations où M. L. tenait des propos inappropriés envers elle et d'autres collègues. C'était vraiment dérangeant"
+      },
+      {
+        "name": "V",
+        "text": "Je suis V, je travaille dans une autre équipe à la RATP. J'ai entendu parler des comportements inappropriés de M. L. envers Mme N. et j'ai été témoin de certains de ses commentaires. C'était totalement inacceptable."
+      },
+      {
+        "name": "Z",
+        "text": "Je m'appelle Z, et je connais Mme N. depuis un moment. J'ai vu M. L. agir de manière déplacée à plusieurs reprises, notamment en faisant des gestes inappropriés en sa présence. C'était choquant."
+      },
+      {
+        "name": "S",
+        "text": "Je suis S, collègue de Mme N. J'ai été témoin de commentaires à connotation sexuelle de la part de M. L. à plusieurs reprises. Je lui ai dit que c'était inacceptable, mais il continuait."
+      },
+      {
+        "name": "Q",
+        "text": "Je m'appelle Q, je travaille sur la même ligne de métro que Mme N. J'ai assisté à des situations où M. L. tenait des propos déplacés à son sujet. C'était vraiment dérangeant et inapproprié."
+      },
+      {
+        "name": "P",
+        "text": "Je suis P, collègue de Mme N. J'ai été témoin de plusieurs incidents où M. L. faisait des commentaires à connotation sexuelle envers elle. C'était très malaisant."
+      },
+      {
+        "name": "J",
+        "text": "Je m'appelle J, et je travaille dans une autre équipe à la RATP. J'ai entendu parler des comportements inappropriés de M. L. envers Mme N. et j'ai vu certaines de ses actions inappropriées. C'était vraiment choquant."
+      },
+      {
+        "name": "H",
+        "text": "Je suis H, je travaille sur la même ligne de métro que Mme N. J'ai assisté à des situations où M. L. tenait des propos déplacés envers elle et d'autres collègues. C'était totalement inacceptable."
+      },
+      {
+        "name": "G",
+        "text": "Je m'appelle G, et je connais Mme N. depuis un moment. J'ai été témoin de comportements inappropriés de M. L. envers elle, notamment des gestes inappropriés et des commentaires déplacés. C'était très gênant"
+      },
+      {
+        "name": "B",
+        "text": "Je m'appelle B, collègue de Mme N. depuis un certain temps. J'ai été témoin de plusieurs comportements inappropriés de la part de M. L. envers elle, notamment des commentaires déplacés et des gestes inappropriés. J'ai pensé que quelqu'un devait parler de cette situation, car c'était vraiment inacceptable."
+      }
+    ],
+    "edt": {
+      "lundi": {
+        "date": "06/03/2023",
+        "événement": [
+          {
+            "name": "08h00 - 09h00 : Réunion d'équipe à la station A",
+            "participant": ["N", "L", "H", "Q", "Y", "P"]
+          },
+          {
+            "name": "16h30 - 18h00 : Réunion de suivi de projet à la station A",
+            "participant": ["N", "L", "E", "Y"]
+          }
+        ]
+      },
+      "mardi": {
+        "date": "07/03/2023",
+        "événement": [
+          {
+            "name": "10h00 - 11h00 : Réunion avec le syndicat pour discuter des préoccupations des agents",
+            "participant": ["N", "L", "C", "P"]
+          },
+          {
+            "name": "14h00 - 16h00 : Formation sur la sécurité au travail",
+            "participant": ["N", "B", "C", "L", "P"]
+          }
+        ]
+      },
+      "mercredi": {
+        "date": "08/03/2023",
+        "événement": [
+          {
+            "name": "08h00 - 09h00 : Réunion d'équipe à la lign 4",
+            "participant": ["N", "L", "G", "T"]
+          },
+          {
+            "name": "16h30 - 18h00 : Réunion de suivi de projet à la lign 4",
+            "participant": ["N", "L", "J", "T"]
+          }
+        ]
+      },
+      "jeudi": {
+        "date": "09/03/2023",
+        "événement": [
+          {
+            "name": "10h00 - 11h00 : Réunion avec le responsable de l'exploitation pour discuter des opérations",
+            "participant": ["C", "L", "R", "B"]
+          },
+          {
+            "name": "16h30 - 18h00 : Réunion de planification des tâches à la station C",
+            "participant": ["N", "L", "A"]
+          }
+        ]
+      },
+      "vendredi": {
+        "date": "10/03/2023",
+        "événement": [
+          {
+            "name": "08h00 - 09h00 : Réunion d'équipe à la station C",
+            "participant": ["N", "L", "Q", "U"]
+          },
+          {
+            "name": "16h30 - 18h00 : Réunion de suivi de projet à la station C",
+            "participant": ["N", "L", "X"]
+          }
+        ]
+      }
+    }
+  }
+}
